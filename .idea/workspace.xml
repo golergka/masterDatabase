@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/admin.py" afterPath="$PROJECT_DIR$/masterCollection/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/models.py" afterPath="$PROJECT_DIR$/masterCollection/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="moscowMasters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +12,8 @@
     <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377557940942" ignored="false" />
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377558151012" ignored="false" />
     <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377561631091" ignored="false" />
-    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377561298911" ignored="false" />
+    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377562042404" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377564142306" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.20761245">
+            <state line="21" column="51" selection-start="613" selection-end="613" vertical-scroll-proportion="0.5449827">
               <folding />
             </state>
           </provider>
@@ -63,7 +63,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="131" selection-end="359" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -350,7 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -362,7 +362,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,6 +443,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/moscowMasters/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="17" selection-start="4362" selection-end="4362" vertical-scroll-proportion="-12.686275">
@@ -452,23 +459,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="131" selection-end="359" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.20761245">
+        <state line="21" column="51" selection-start="613" selection-end="613" vertical-scroll-proportion="0.5449827">
           <folding />
         </state>
       </provider>

@@ -19,5 +19,4 @@ class Master(models.Model):
 class MasterService(models.Model):
     master = models.ForeignKey(Master)
     service = models.ForeignKey(Service)
-    available = models.BooleanField()
     price = models.PositiveIntegerField(blank=True)
