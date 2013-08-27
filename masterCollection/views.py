@@ -1,7 +1,7 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 
-from masterCollection.models import Master
+from masterCollection.models import Master, Service, MasterService
 
 def index(request):
     master_list = Master.objects.iterator()

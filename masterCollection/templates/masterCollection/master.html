@@ -1,1 +1,9 @@
-{{ master }}
+<h1>{{ master.name }}</h1>
+<p>{{  master.description }}</p>
+<ul>
+    {% for masterservice in master.masterservice_set.iterator %}
+        <li>
+            {{ masterservice.service.name }} for {{ masterservice.price }}
+        </li>
+    {%  endfor %}
+</ul>
