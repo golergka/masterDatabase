@@ -1,0 +1,10 @@
+{% if master_list %}
+    <h1>Moscow masters:</h1>
+    <ul>
+    {% for master in master_list %}
+        <li><a href= "/master/{{ master.id }}/">{{ master.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No masters in database.</p>
+{% endif %}
