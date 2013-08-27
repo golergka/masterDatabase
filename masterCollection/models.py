@@ -2,7 +2,7 @@ from django.db import models
 
 # Edited only by admins
 class Service(models.Model):
-    url_name = models.CharField(max_length=100, primary_key=True)
+    url_name = models.SlugField(max_length=50, primary_key=True)
     name = models.CharField(max_length=200)
     description = models.TextField()
 
@@ -12,6 +12,7 @@ class Service(models.Model):
 class Master(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
+    email = models.EmailField(max_length=254, unique=True)
     services = models.ManyToManyField(Service, through='MasterService')
 
     def __unicode__(self):

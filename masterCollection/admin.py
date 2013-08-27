@@ -8,7 +8,8 @@ class ServiceInline(admin.StackedInline):
     extra = 3
 
 class MasterAdmin(admin.ModelAdmin):
-    fields = ['name', 'description']
+    fields = ['name', 'description', 'email']
     inlines = [ServiceInline]
+    list_display = ('name', 'description')
 
 admin.site.register(Master, MasterAdmin)
