@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moscowMasters/settings.py" afterPath="$PROJECT_DIR$/moscowMasters/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moscowMasters/urls.py" afterPath="$PROJECT_DIR$/moscowMasters/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/models.py" afterPath="$PROJECT_DIR$/masterCollection/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="moscowMasters.iws" />
@@ -16,7 +12,8 @@
     <file path="/Dummy.txt" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377558094410" ignored="false" />
     <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377557940942" ignored="false" />
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377558151012" ignored="false" />
-    <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377560863789" ignored="false" />
+    <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377561631091" ignored="false" />
+    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377561298911" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +42,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+            <state line="8" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.20761245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.4152249">
+            <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,9 +90,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/masterCollection/models.py" />
         <option value="$PROJECT_DIR$/moscowMasters/settings.py" />
         <option value="$PROJECT_DIR$/moscowMasters/urls.py" />
+        <option value="$PROJECT_DIR$/masterCollection/admin.py" />
+        <option value="$PROJECT_DIR$/masterCollection/models.py" />
       </list>
     </option>
   </component>
@@ -248,6 +257,26 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="moscowMasters" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="moscowMasters" type="Python.DjangoServer" factoryName="Django server">
@@ -414,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moscowMasters/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="17" selection-start="4362" selection-end="4362" vertical-scroll-proportion="-12.686275">
@@ -428,9 +450,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.4152249">
+        <state line="16" column="1" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.20761245">
           <folding />
         </state>
       </provider>

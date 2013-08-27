@@ -6,9 +6,15 @@ class Service(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
 
+    def __unicode__(self):
+        return self.name
+
 class Master(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
+
+    def __unicode__(self):
+        return self.name
 
 class MasterService(models.Model):
     master = models.ForeignKey(Master)
