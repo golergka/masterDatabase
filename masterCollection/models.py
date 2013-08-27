@@ -22,4 +22,4 @@ class MasterService(models.Model):
     master = models.ForeignKey(Master)
     service = models.ForeignKey(Service)
 
-    price = models.PositiveIntegerField(blank=True)
+    price = models.PositiveIntegerField(blank=True, null=True)
