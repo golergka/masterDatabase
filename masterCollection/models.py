@@ -12,6 +12,7 @@ class Service(models.Model):
 class Master(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
+    services = models.ManyToManyField(Service, through='MasterService')
 
     def __unicode__(self):
         return self.name
@@ -19,4 +20,5 @@ class Master(models.Model):
 class MasterService(models.Model):
     master = models.ForeignKey(Master)
     service = models.ForeignKey(Service)
+
     price = models.PositiveIntegerField(blank=True)
