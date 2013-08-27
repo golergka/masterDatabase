@@ -1,5 +1,5 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.http import Http404
+from django.shortcuts import render, get_object_or_404
 
 from masterCollection.models import Master
 
@@ -9,4 +9,5 @@ def index(request):
     return render(request, 'masterCollection/index.html', context)
 
 def master(request, master_id):
-    return HttpResponse("TODO master view %s" % master_id)
+    master = get_object_or_404(Master, pk = master_id)
+    return render(request, 'masterCollection/master.html', { 'master': master })

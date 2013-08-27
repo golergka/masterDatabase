@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/views.py" afterPath="$PROJECT_DIR$/masterCollection/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="moscowMasters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,10 +14,10 @@
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377565097989" ignored="false" />
     <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377596775037" ignored="false" />
     <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377566447792" ignored="false" />
-    <file path="/views.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377603416943" ignored="false" />
+    <file path="/views.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377603703968" ignored="false" />
     <file path="/urls.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377597460168" ignored="false" />
     <file path="/index.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377603298279" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377603474390" ignored="false" />
+    <file path="/master.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377603657900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,18 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="11" column="54" selection-start="395" selection-end="395" vertical-scroll-proportion="0.28546712">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -127,6 +140,7 @@
         <option value="$PROJECT_DIR$/masterCollection/models.py" />
         <option value="$PROJECT_DIR$/masterCollection/urls.py" />
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html" />
+        <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html" />
         <option value="$PROJECT_DIR$/masterCollection/views.py" />
       </list>
     </option>
@@ -546,10 +560,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="11" column="54" selection-start="395" selection-end="395" vertical-scroll-proportion="0.28546712">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
