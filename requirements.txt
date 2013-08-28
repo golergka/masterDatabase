@@ -4,7 +4,6 @@ Scrapy==0.16.5
 Twisted==12.0.0
 altgraph==0.9
 bdist-mpkg==0.4.4
-bonjour-py==0.3
 bottle==0.11.6
 lxml==3.2.1
 macholib==1.4.2
