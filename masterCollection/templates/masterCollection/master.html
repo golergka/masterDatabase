@@ -3,13 +3,34 @@
 {% block title %}Мастера Москвы: {{ master.name }}{% endblock %}
 
 {% block content %}
-    <h1>{{ master.name }}</h1>
-    <p>{{ master.description }}</p>
-    <ul>
-        {% for master_service in master.masterservice_set.iterator %}
-            <li>
-                {{ master_service.service.name }} for {{ master_service.price }}
-            </li>
-        {%  endfor %}
-    </ul>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1>{{ master.name }}</h1>
+        </div>
+        <div class="panel-body">
+            <p>{{ master.description }}</p>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Услуга
+                    </th>
+                    <th>
+                        Цена
+                    </th>
+                </tr>
+            </thead>
+            {% for master_service in master.masterservice_set.iterator %}
+                <tr>
+                    <td>
+                        {{ master_service.service.name }}
+                    </td>
+                    <td>
+                        {{ master_service.price }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
 {% endblock %}
