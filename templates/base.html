@@ -15,8 +15,8 @@
     <script src="{% static 'js/jquery-1.10.2.min.js' %}"></script>
     <!-- Bootstrap -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
     <div class="container">
+        <div id="navigation">{% block navigation %}{% endblock %}</div>
         <div id="content">{% block content %}{% endblock %}</div>
     </div>
 </body>

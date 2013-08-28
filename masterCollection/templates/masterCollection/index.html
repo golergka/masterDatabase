@@ -1,13 +1,12 @@
-{% extends 'base.html' %}
+{% extends "masterCollection/base.html" %}
 
 {% block title %}Список мастеров{% endblock %}
 
 {% block content %}
     {% if master_list %}
-        <h1>Moscow masters:</h1>
         <ul class="list-group">
         {% for master in master_list %}
-            <li class="list-group-item"><a href= "/master/{{ master.id }}/">{{ master.name }}</a></li>
+            <li class="list-group-item"><a href= "{% url 'master' master.id %}">{{ master.name }}</a></li>
         {% endfor %}
         </ul>
     {% else %}
