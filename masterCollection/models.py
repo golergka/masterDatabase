@@ -15,6 +15,20 @@ class Master(models.Model):
     email = models.EmailField(max_length=254, unique=True)
     services = models.ManyToManyField(Service, through='MasterService')
 
+    # def get_all_services(self):
+    #     result = []
+    #     for service_type in Service.objects.iterator():
+    #         found = False
+    #
+    #         for master_service in self.masterservice_set:
+    #             if master_service == service_type:
+    #                 result.append(master_service)
+    #                 found = True
+    #                 break
+    #
+    #         if not found:
+    #             result.append()
+
     def __unicode__(self):
         return self.name
 

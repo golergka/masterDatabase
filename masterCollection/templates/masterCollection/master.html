@@ -1,9 +1,15 @@
-<h1>{{ master.name }}</h1>
-<p>{{  master.description }}</p>
-<ul>
-    {% for masterservice in master.masterservice_set.iterator %}
-        <li>
-            {{ masterservice.service.name }} for {{ masterservice.price }}
-        </li>
-    {%  endfor %}
-</ul>
+{% extends 'base.html' %}
+
+{% block title %}Мастера Москвы: {{ master.name }}{% endblock %}
+
+{% block content %}
+    <h1>{{ master.name }}</h1>
+    <p>{{ master.description }}</p>
+    <ul>
+        {% for master_service in master.masterservice_set.iterator %}
+            <li>
+                {{ master_service.service.name }} for {{ master_service.price }}
+            </li>
+        {%  endfor %}
+    </ul>
+{% endblock %}
