@@ -1,6 +1,7 @@
 # Django settings for moscowMasters project.
 
 import os
+import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -12,6 +13,8 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
+
+DATABASES = {'default': dj_database_url.config() }
 
 DATABASES = {
     'default': {
@@ -27,7 +30,12 @@ DATABASES = {
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+
+# Allow all host headers https://devcenter.heroku.com/articles/django#database-settings
+ALLOWED_HOSTS = ['*']
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name

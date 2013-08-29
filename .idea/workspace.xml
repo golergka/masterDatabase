@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html" afterPath="$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html" afterPath="$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moscowMasters/settings.py" afterPath="$PROJECT_DIR$/moscowMasters/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moscowMasters/wsgi.py" afterPath="$PROJECT_DIR$/moscowMasters/wsgi.py" />
     </list>
     <ignored path="moscowMasters.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377649712275" ignored="false" />
-    <file path="/Dummy.txt" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377636055627" ignored="false" />
-    <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377557940942" ignored="false" />
+    <file path="/settings.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377808733130" ignored="false" />
+    <file path="/Dummy.txt" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377732172426" ignored="false" />
+    <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377808425442" ignored="false" />
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377565097989" ignored="false" />
     <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377642862264" ignored="false" />
     <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377566447792" ignored="false" />
@@ -21,6 +20,7 @@
     <file path="/index.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377653876217" ignored="false" />
     <file path="/master.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377651162854" ignored="false" />
     <file path="/base.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377653805197" ignored="false" />
+    <file path="/wsgi.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377807877751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,68 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moscowMasters/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="24" selection-start="4569" selection-end="4569" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="33" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+            <state line="16" column="10" selection-start="262" selection-end="262" vertical-scroll-proportion="0.12931034">
               <folding>
-                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#46#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html">
+      <file leaf-file-name="dj_database_url.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/dj_database_url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/masterCollection/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="75" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2166065">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,11 +84,12 @@
         <option value="$PROJECT_DIR$/masterCollection/views.py" />
         <option value="$PROJECT_DIR$/masterCollection/models.py" />
         <option value="$PROJECT_DIR$/masterCollection/urls.py" />
-        <option value="$PROJECT_DIR$/moscowMasters/settings.py" />
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html" />
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html" />
+        <option value="$PROJECT_DIR$/moscowMasters/wsgi.py" />
+        <option value="$PROJECT_DIR$/moscowMasters/settings.py" />
       </list>
     </option>
   </component>
@@ -170,7 +124,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,17 +208,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -306,29 +260,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="moscowMasters" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,6 +281,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="moscowMasters" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -374,7 +328,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -450,17 +404,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25275397" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -536,27 +490,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/core/validators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="6" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.33217993" />
@@ -571,16 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moscowMasters/static/js/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moscowMasters/urls.py">
@@ -597,18 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.24368231">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moscowMasters/settings.py">
+    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="24" selection-start="4569" selection-end="4569" vertical-scroll-proportion="0.0">
+        <state line="29" column="33" selection-start="987" selection-end="987" vertical-scroll-proportion="0.49544418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="387" selection-end="387" vertical-scroll-proportion="0.17084283">
           <folding />
         </state>
       </provider>
@@ -620,33 +549,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/masterCollection/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.24368231">
+        <state line="7" column="1" selection-start="253" selection-end="253" vertical-scroll-proportion="0.11958998">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.125">
+        <state line="5" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="0.08782201">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="75" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2166065">
+        <state line="8" column="75" selection-start="284" selection-end="284" vertical-scroll-proportion="0.14051522">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/dj_static.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="64" selection-start="508" selection-end="508" vertical-scroll-proportion="0.20501138">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moscowMasters/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="661" selection-end="661" vertical-scroll-proportion="0.31034482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/dj_database_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moscowMasters/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="262" selection-end="262" vertical-scroll-proportion="0.12931034">
+          <folding>
+            <element signature="e#46#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
