@@ -1,6 +1,12 @@
 from django.contrib import admin
 from masterCollection.models import Master, Service, MasterService
 
+# Custom user admin
+# https://docs.djangoproject.com/en/dev/topics/auth/customizing/#extending-the-existing-user-model
+
+from django.contrib.auth.admin import UserAdmin
+from django.contrib.auth.models import User
+
 admin.site.register(Service)
 
 class ServiceInline(admin.StackedInline):
@@ -12,13 +18,13 @@ class MasterAdmin(admin.ModelAdmin):
     inlines = [ServiceInline]
     list_display = ('name', 'description')
 
+    def has_change_permission(self, request, obj=None):
+        if (obj==None):
+            return True
+        else:
+            return obj.user == request.user
+
 admin.site.register(Master, MasterAdmin)
-
-# Custom user admin
-# https://docs.djangoproject.com/en/dev/topics/auth/customizing/#extending-the-existing-user-model
-
-from django.contrib.auth.admin import UserAdmin
-from django.contrib.auth.models import User
 
 class MasterInline(admin.StackedInline):
     model = Master
