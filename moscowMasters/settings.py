@@ -30,8 +30,7 @@ if DATABASES['default'] == {}:
         }
     }
 else:
-    print "Database settings from dj_database_url:"
-    print DATABASES['default']
+    print "Got database settings from environment variable"
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
