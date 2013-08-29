@@ -13,6 +13,12 @@ class ServiceInline(admin.StackedInline):
     model = MasterService
     extra = 3
 
+    def has_change_permission(self, request, obj=None):
+        if (obj==None):
+            return True
+        else:
+            return obj.master.user == request.user
+
 class MasterAdmin(admin.ModelAdmin):
     fields = ['name', 'description', 'email', 'user']
     inlines = [ServiceInline]
