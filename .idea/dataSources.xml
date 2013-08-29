@@ -3,7 +3,7 @@
   <component name="DataSourceManagerImpl" format="xml" hash="531471122">
     <data-source source="LOCAL" name="Django default" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="951d33e7-892d-42f7-8cfb-d5ea186c04ca">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/moscow_masters_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql:</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/PyCharm20/jdbc-drivers/postgresql-driver-license.txt</url>
