@@ -16,6 +16,7 @@ class Master(models.Model):
     email = models.EmailField(max_length=254, unique=True)
     services = models.ManyToManyField(Service, through='MasterService')
     user = models.OneToOneField(User, null=True)
+    published = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.name
