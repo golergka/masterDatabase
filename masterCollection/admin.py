@@ -6,6 +6,7 @@ from masterCollection.models import Master, Service, MasterService
 
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.models import User
+from django.core.exceptions import PermissionDenied
 
 admin.site.register(Service)
 
@@ -19,9 +20,24 @@ class ServiceInline(admin.StackedInline):
         else:
             return obj.master.user == request.user
 
+def publish_master(modeladmin, request, queryset):
+    if not request.user.is_superuser:
+        raise PermissionDenied
+    else:
+        queryset.update(published=True)
+
+def unpublish_master(modeladmin, request, queryset):
+    if not request.user.is_superuser:
+        raise PermissionDenied
+    else:
+        queryset.update(published=False)
+
 class MasterAdmin(admin.ModelAdmin):
     inlines = [ServiceInline]
-    list_display = ('name', 'description')
+    list_display = ('name', 'description', 'published')
+    list_filter = ['published']
+
+    actions = [publish_master, unpublish_master]
 
     def queryset(self, request):
         qs = super(MasterAdmin, self).queryset(request)

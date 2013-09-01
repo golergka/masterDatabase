@@ -10,7 +10,7 @@ class IndexView(generic.ListView):
     context_object_name = 'master_list'
 
     def get_queryset(self):
-        return Master.objects.iterator()
+        return Master.objects.filter(published=True)
 
 class MasterView(generic.DetailView):
     model = Master

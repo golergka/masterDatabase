@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/admin.py" afterPath="$PROJECT_DIR$/masterCollection/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/maxankov.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/maxankov.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/views.py" afterPath="$PROJECT_DIR$/masterCollection/views.py" />
     </list>
     <ignored path="moscowMasters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,13 +13,14 @@
     <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377808425442" ignored="false" />
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377565097989" ignored="false" />
     <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039959331" ignored="false" />
-    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378045022001" ignored="false" />
-    <file path="/views.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039726797" ignored="false" />
+    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378045967165" ignored="false" />
+    <file path="/views.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378045238614" ignored="false" />
     <file path="/urls.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039789927" ignored="false" />
     <file path="/index.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378018969941" ignored="false" />
     <file path="/master.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377651162854" ignored="false" />
     <file path="/base.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039472019" ignored="false" />
     <file path="/wsgi.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377807877751" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378045971231" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="9" column="39" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -79,7 +81,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.89672977">
+            <state line="37" column="31" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.6454389">
               <folding />
             </state>
           </provider>
@@ -121,8 +123,8 @@
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/index.html" />
         <option value="$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html" />
         <option value="$PROJECT_DIR$/masterCollection/urls.py" />
-        <option value="$PROJECT_DIR$/masterCollection/views.py" />
         <option value="$PROJECT_DIR$/masterCollection/models.py" />
+        <option value="$PROJECT_DIR$/masterCollection/views.py" />
         <option value="$PROJECT_DIR$/masterCollection/admin.py" />
       </list>
     </option>
@@ -601,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="0" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.4354561">
@@ -622,9 +617,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+        <state line="9" column="39" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -633,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.89672977">
+        <state line="37" column="31" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.6454389">
           <folding />
         </state>
       </provider>
