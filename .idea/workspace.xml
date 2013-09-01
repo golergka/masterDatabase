@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="515d0cf1-b165-44e0-8919-af5d7286e876" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/admin.py" afterPath="$PROJECT_DIR$/masterCollection/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masterCollection/models.py" afterPath="$PROJECT_DIR$/masterCollection/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="moscowMasters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,14 +12,13 @@
     <file path="/Django Console" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377808425442" ignored="false" />
     <file path="/a.dummy" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377565097989" ignored="false" />
     <file path="/models.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039959331" ignored="false" />
-    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378040257125" ignored="false" />
+    <file path="/admin.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378045022001" ignored="false" />
     <file path="/views.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039726797" ignored="false" />
     <file path="/urls.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039789927" ignored="false" />
     <file path="/index.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378018969941" ignored="false" />
     <file path="/master.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377651162854" ignored="false" />
     <file path="/base.html" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378039472019" ignored="false" />
     <file path="/wsgi.py" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1377807877751" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="515d0cf1-b165-44e0-8919-af5d7286e876" time="1378040257728" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,16 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.5869191">
+            <state line="45" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.89672977">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/contrib/admin/helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="0" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -516,18 +524,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/moscowMasters/static/js/jquery-1.10.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/master.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/dj_static.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="64" selection-start="508" selection-end="508" vertical-scroll-proportion="0.20501138" />
@@ -598,15 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/templates/masterCollection/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="49" selection-start="306" selection-end="306" vertical-scroll-proportion="-5.0">
@@ -621,9 +608,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="0" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.4354561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/admin/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="0" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/masterCollection/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/masterCollection/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.5869191">
+        <state line="45" column="0" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.89672977">
           <folding />
         </state>
       </provider>

@@ -20,7 +20,6 @@ class ServiceInline(admin.StackedInline):
             return obj.master.user == request.user
 
 class MasterAdmin(admin.ModelAdmin):
-    fields = ['name', 'description', 'email', 'user']
     inlines = [ServiceInline]
     list_display = ('name', 'description')
 
@@ -35,6 +34,17 @@ class MasterAdmin(admin.ModelAdmin):
             return True
         else:
             return obj.user == request.user
+
+    def get_form(self, request, obj=None, **kwargs):
+
+        if self.exclude == None:
+            self.exclude = []
+
+        if not request.user.is_superuser:
+            self.exclude.append('user')
+            self.exclude.append('published')
+
+        return super(MasterAdmin, self).get_form(request, obj, **kwargs)
 
 admin.site.register(Master, MasterAdmin)
 
