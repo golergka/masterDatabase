@@ -24,8 +24,14 @@ class MasterAdmin(admin.ModelAdmin):
     inlines = [ServiceInline]
     list_display = ('name', 'description')
 
+    def queryset(self, request):
+        qs = super(MasterAdmin, self).queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(user=request.user)
+
     def has_change_permission(self, request, obj=None):
-        if (obj==None):
+        if (obj==None or request.user.is_superuser):
             return True
         else:
             return obj.user == request.user
