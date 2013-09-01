@@ -1,12 +1,17 @@
 from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse, HttpResponseRedirect
+from django.core.urlresolvers import reverse
+from django.views import generic
 
 from masterCollection.models import Master, Service, MasterService
 
-def index(request):
-    master_list = Master.objects.iterator()
-    context = { 'master_list': master_list }
-    return render(request, 'masterCollection/index.html', context)
+class IndexView(generic.ListView):
+    template_name = 'masterCollection/index.html'
+    context_object_name = 'master_list'
 
-def master(request, master_id):
-    master = get_object_or_404(Master, pk = master_id)
-    return render(request, 'masterCollection/master.html', { 'master': master })
+    def get_queryset(self):
+        return Master.objects.iterator()
+
+class MasterView(generic.DetailView):
+    model = Master
+    template_name = 'masterCollection/master.html'

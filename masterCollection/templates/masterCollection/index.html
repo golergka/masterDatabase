@@ -6,7 +6,7 @@
     {% if master_list %}
         <ul class="list-group">
         {% for master in master_list %}
-            <li class="list-group-item"><a href= "{% url 'master' master.id %}">{{ master.name }}</a></li>
+            <li class="list-group-item"><a href= "{% url 'masterCollection:master' master.id %}">{{ master.name }}</a></li>
         {% endfor %}
         </ul>
     {% else %}

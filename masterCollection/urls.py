@@ -3,6 +3,6 @@ from django.conf.urls import patterns, url
 from masterCollection import views
 
 urlpatterns = patterns('',
-    url(r'^$',                             views.index,  name='index'),
-    url(r'^master/(?P<master_id>\d+)/$',   views.master, name='master'),
+    url(r'^$',                           views.IndexView.as_view(),  name='index'),
+    url(r'^master/(?P<pk>\d+)/$',        views.MasterView.as_view(), name='master'),
 )
