@@ -138,9 +138,13 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+
+    # 3rd-party packages
     'bootstrap_toolkit',
     'south',
+    'yandex_maps',
 
+    # My own apps
     'masterCollection'
 )
 
@@ -172,3 +176,5 @@ LOGGING = {
         },
     }
 }
+
+YANDEX_MAPS_API_KEY="AA_XJFIBAAAA5V1UAwMARVxgSkzHng0EHgkvNcR-8SGAPb8AAAAAAAAAAAAbQQjtrqBLrDQ3MXxpIZFEzIRW8g=="
