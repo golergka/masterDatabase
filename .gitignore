@@ -1,4 +1,4 @@
 *.pyo
 *.pyc
-/cache/*
 .idea/*
+~./cache
