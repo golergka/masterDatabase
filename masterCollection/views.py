@@ -9,8 +9,24 @@ class IndexView(generic.ListView):
     template_name = 'masterCollection/index.html'
     context_object_name = 'master_list'
 
+    def search_string(self):
+        return self.request.GET.get('search_string')
+
+    def get_context_data(self, **kwargs):
+        context = super(IndexView, self).get_context_data(**kwargs)
+        context['search_string'] = self.search_string()
+        return context
+
     def get_queryset(self):
-        return Master.objects.filter(published=True)
+
+        lookups = { 'published' : 'True' }
+        search_string = self.search_string()
+        if not search_string == None:
+            lookups['name__icontains'] = search_string
+
+        print lookups
+
+        return Master.objects.filter(**lookups)
 
 class MasterView(generic.DetailView):
     model = Master
