@@ -21,3 +21,4 @@ django-bootstrap-toolkit==2.15.0
 dj-database-url==0.2.2
 dj-static==0.0.5
 South==0.8.2
+yandex-maps==0.7
