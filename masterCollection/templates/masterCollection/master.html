@@ -8,10 +8,48 @@
             <h1>{{ master.name }}</h1>
         </div>
         <div class="panel-body">
-            <p>{{ master.description }}</p>
-            {% if master.address and master.address.strip %}
-                <p>{{ master.address }}</p>
-            {% endif %}
+            <div class="row"></div>
+                <div class="col-sm-7"><p>{{ master.description }}</p></div>
+
+                {% if master.address and master.address.strip %}
+                    <div class="col-sm-5">
+
+                        <script src=http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU type="text/javascript"></script>
+                        <div id="map" style="width: 100%; height: 300px"></div>
+
+                        <script type="text/javascript">
+                            ymaps.ready(init);
+                            var myMap, myPlacemark;
+
+                            function init() {
+                                myMap = new ymaps.Map ("map", {
+                                        center: [55.76, 37.64], // Центр Москвы по умолчанию, пока мы не загрузили точку
+                                        zoom: 7
+                                    });
+
+                                myGeocoder = ymaps.geocode("{{ master.address }}");
+
+                                myGeocoder.then(
+                                    function(res) {
+                                        var nearest = res.geoObjects.get(0);
+
+                                        nearest.properties.set('iconContent', "{{ master.name }}");
+                                        nearest.options.set('preset', 'twirl#redStretchyIcon');
+
+                                        myMap.geoObjects.add(nearest);
+                                        myMap.setCenter(nearest.geometry.getCoordinates());
+                                        myMap.setZoom(15);
+                                    }
+                                    // TODO: Сделать нормальную обработку ошибок
+                                );
+
+                                myMap.geoObjects.add(myPlacemark);
+                            }
+                        </script>
+                    </div>
+                {% endif %}
+
+            </div>
         </div>
         <table class="table">
             <thead>
