@@ -9,6 +9,9 @@
         </div>
         <div class="panel-body">
             <p>{{ master.description }}</p>
+            {% if master.address and master.address.strip %}
+                <p>{{ master.address }}</p>
+            {% endif %}
         </div>
         <table class="table">
             <thead>

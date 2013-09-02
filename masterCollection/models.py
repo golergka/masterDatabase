@@ -11,12 +11,13 @@ class Service(models.Model):
         return self.name
 
 class Master(models.Model):
-    name = models.CharField(max_length=200)
+    name        = models.CharField(max_length=200)
     description = models.TextField(blank=True)
-    email = models.EmailField(max_length=254, unique=True)
-    services = models.ManyToManyField(Service, through='MasterService')
-    user = models.OneToOneField(User, null=True)
-    published = models.BooleanField(default=False)
+    email       = models.EmailField(max_length=254, unique=True)
+    services    = models.ManyToManyField(Service, through='MasterService')
+    user        = models.OneToOneField(User, null=True)
+    published   = models.BooleanField(default=False)
+    address     = models.CharField(max_length=1000, blank=True)
 
     def __unicode__(self):
         return self.name
